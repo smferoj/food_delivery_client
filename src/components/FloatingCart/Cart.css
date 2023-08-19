@@ -1,0 +1,86 @@
+.cart-button-container {
+  position: fixed;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+}
+.offcanvas.offcanvas-end {
+  width: 350px;
+}
+.cart-button {
+  padding: 0;
+  width: 70px;
+  height: 70px;
+}
+.cart-button.btn:hover {
+  background-color: var(--tarnary-color);
+  color: #fff !important;
+}
+.cart-button svg {
+  font-size: 1.5rem;
+}
+.cart-button span {
+  font-size: 0.9rem;
+  background-color: var(--secondary-color);
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}
+
+.cart-item-container {
+  max-height: 70vh;
+  min-height: 60vh;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.cart-item-container {
+  max-height: 70vh;
+  min-height: 60vh;
+}
+
+.cart-item-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.cart-item-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.cart-item-details h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.quantity-management p {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.cart-item-details button.btn.decrease,
+.cart-item-details button.btn.increase {
+  padding: 0.2rem 0.5rem;
+}
+.cart-item-details .increase-decrease input {
+  width: 40px;
+}
+
+.tatal-price {
+  text-align: center;
+  background-color: #d0e1e8;
+  padding: 1rem 0;
+  border-radius: 5px;
+  margin-bottom: 1.5rem;
+}
+
+.tatal-price h3 {
+  font-size: 1.3rem;
+}
+
+.offcanvas-header {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+.offcanvas-title {
+  font-size: 1.2rem;
+}
